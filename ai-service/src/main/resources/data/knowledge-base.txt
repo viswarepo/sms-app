@@ -1,0 +1,34 @@
+========================================================================
+ACME CORP INTERNAL OPERATION MANUAL & POLICY GUIDE (VERSION 2026.1)
+========================================================================
+
+1. OFFICE LOGISTICS & ACCESS
+The Acme Corp main headquarters is located at 742 Evergreen Terrace, Sector 7G.
+The office building is open to employees Monday through Friday from 6:00 AM to 10:00 PM.
+Weekend access requires prior authorization from the Facilities Team via the internal Slack channel #hq-access at least 24 hours in advance.
+
+2. REMOTE WORK & REIMBURSEMENT POLICY
+All full-time employees are eligible for a monthly remote work stipend of INR 4,500 to cover internet utilities and home office consumables.
+Expensing hardware items (like keyboards, monitors, or ergonomic chairs) must go through the IT Procurement Portal and requires approval from your direct department head.
+
+3. WIFI NETWORK CREDENTIALS
+- Primary Employee Network SSID: Acme_Secure_Corp
+- Authentication Protocol: WPA3 Enterprise (Log in using your corporate email and SSO password)
+- Guest Network SSID: Acme_Guest_WiFi (Password: RoadRunner2026!)
+Note: Do not connect personal streaming devices or gaming consoles to the primary network.
+
+4. HEALTH & WELLNESS BENEFITS
+Acme Corp partners with OmniHealth Insurance.
+The standard health package covers 100% of preventive care, routine checkups, and prescription drugs up to a limit of INR 500,000 per family unit per year.
+Mental health support is provided through the "MindSpace" app, which offers 10 free therapy sessions per calendar year for all active employees.
+
+5. HOLIDAY SCHEDULE & FLOATING LEAVE
+The company observes 12 standard public holidays.
+Additionally, employees receive 3 "Personal Innovation Days" per year.
+These are floating leave days meant for working on side projects, learning new engineering skills, or prototyping fresh product ideas.
+Unused Innovation Days do not roll over to the next calendar year.
+
+6. EXPENSE REPORTS & MILEAGE
+When traveling for client deployment, employees can claim a travel reimbursement rate of INR 45 per kilometer driven in a personal vehicle.
+All expense claims exceeding INR 2,000 require a scanned copy of the original physical receipt or an official e-invoice.
+Submissions must be finalized in the ExpenseBot software by the 25th day of each month.
