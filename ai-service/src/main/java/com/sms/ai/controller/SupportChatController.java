@@ -1,6 +1,6 @@
-package com.sms.controller;
+package com.sms.ai.controller;
 
-import com.ai.service.SupportRagService;
+import com.sms.ai.service.SupportRagService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,6 +1,6 @@
-package com.ai;
+package com.sms.ai;
 
-import com.ai.service.RagDataLoaderService;
+import com.sms.ai.service.RagDataLoaderService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

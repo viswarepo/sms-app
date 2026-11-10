@@ -1,4 +1,4 @@
-package com.sms.config;
+package com.sms.ai.config;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor;

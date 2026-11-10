@@ -1,4 +1,4 @@
-package com.sms.controller;
+package com.sms.ai.controller;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.document.Document;

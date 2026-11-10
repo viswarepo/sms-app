@@ -1,6 +1,6 @@
-package com.sms.controller;
+package com.sms.ai.controller;
 
-import com.ai.service.RagService;
+import com.sms.ai.service.RagService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

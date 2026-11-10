@@ -1,4 +1,4 @@
-package com.sms.config;
+package com.sms.ai.config;
 
 import org.springframework.ai.document.Document;
 import org.springframework.ai.embedding.EmbeddingModel;
