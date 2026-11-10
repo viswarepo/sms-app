@@ -1,0 +1,18 @@
+
+spring:
+  application:
+    name: subscription-service
+
+  profiles:
+    active: local
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    com.sms.sub: INFO
+    org.hibernate.SQL: WARN

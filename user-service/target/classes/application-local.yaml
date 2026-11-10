@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sms_user_db
+    username: sms_user
+    password: password
+    driver-class-name: org.postgresql.Driver
+    jpa:
+      hibernate:
+        ddl-auto: update
+        show-sql: true
+        properties:
+          hibernate:
+            format_sql:true
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+          open-in-view : false
+
+alert-service:
+  url: http://localhost:9095 
+subscription-service:
+  url: http://localhost:9097
+
+internal:
+  api-key: sms_12345
+
+tenant:
+  signup:
+    url: http://localhost:5173/tenantsignup
+
+customer:
+  signup:
+    url: http://localhost:5173/tenant-customer-signup

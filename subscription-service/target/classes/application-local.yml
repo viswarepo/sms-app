@@ -1,0 +1,31 @@
+server:
+  port: 9097
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sub_db
+    username: sub_user
+    password: password
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    admin:
+      fail-fast: false
+      properties:
+        bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+
+user-service:
+  url: http://localhost:8090
+
+internal:
+  api-key: sms_12345

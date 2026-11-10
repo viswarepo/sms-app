@@ -1,0 +1,16 @@
+
+spring:
+  application:
+    name: billing-payment-service
+  profiles:
+    active: local
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    com.sms.billing: INFO
+    org.hibernate.SQL: WARN
