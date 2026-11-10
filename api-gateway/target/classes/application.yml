@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: api-gateway
+  profiles:
+    active: local
+
+# ---------------------------------------------------------------------------
+# Actuator / management
+# ---------------------------------------------------------------------------
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,gateway,info
+  endpoint:
+    gateway:
+      access: read-only
+  health:
+    redis:
+      enabled: true
+
+logging:
+  level:
+    com.example.gateway: INFO
+    org.springframework.cloud.gateway: DEBUG
+    org.springframework.web.reactive: DEBUG
+    reactor.netty.http.client: DEBUG
