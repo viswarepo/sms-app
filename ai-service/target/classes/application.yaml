@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: ai-service
+  profiles:
+    active: local
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    com.sms.ai: INFO
+    org.hibernate.SQL: WARN

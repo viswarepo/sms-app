@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: notification-service
+
+  profiles:
+    active: local
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    com.sms.notification: INFO
