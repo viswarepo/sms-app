@@ -22,7 +22,7 @@ public class MailgunService {
 
     public MailgunService(RestClient mailgunRestClient,
                            String domain,
-                           String fromAddress) {
+                          String fromAddress) {
         this.mailgunRestClient = mailgunRestClient;
         this.domain = domain;
         this.fromAddress = fromAddress;

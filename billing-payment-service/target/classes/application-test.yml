@@ -1,0 +1,35 @@
+server:
+  port: 9099
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/billing_db
+    username: bill_user
+    password: password
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    admin:
+      properties:
+        bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    consumer:
+      group-id: billing-payment-service
+      auto-offset-reset: latest
+
+razorpay:
+  key-id: ${RAZORPAY_KEY_ID:rzp_test_Td71kiTsXmsmNN}
+  key-secret: ${RAZORPAY_KEY_SECRET:yDRYTYB4MAnuvvEfND9f5VlE}
+  webhook-secret: ${RAZORPAY_WEBHOOK_SECRET:changeme}
+
+billing:
+  cycle-cron: "0 0 2 * * *"

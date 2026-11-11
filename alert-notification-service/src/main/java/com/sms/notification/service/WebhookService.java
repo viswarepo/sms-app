@@ -22,8 +22,8 @@ public class WebhookService {
     private final String twilioAuthToken;
 
     public WebhookService(NotificationService notificationService,
-                          String mailgunSigningKey,
-                           String twilioAuthToken) {
+                           String mailgunSigningKey,
+                          String twilioAuthToken) {
         this.notificationService = notificationService;
         this.mailgunSigningKey = mailgunSigningKey;
         this.twilioAuthToken = twilioAuthToken;

@@ -15,7 +15,7 @@ public class TwilioService {
 
     private final String fromNumber;
 
-    public TwilioService(String fromNumber) {
+    public TwilioService( String fromNumber) {
         this.fromNumber = fromNumber;
     }
 

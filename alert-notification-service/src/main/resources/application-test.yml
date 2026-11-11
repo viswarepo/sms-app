@@ -1,0 +1,14 @@
+server:
+  port: 9095
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/notify_db
+    username: notify_user
+    password: password
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    open-in-view: false
+

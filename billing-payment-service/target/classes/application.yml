@@ -3,7 +3,7 @@ spring:
   application:
     name: billing-payment-service
   profiles:
-    active: local
+    active: dev
 management:
   endpoints:
     web:
